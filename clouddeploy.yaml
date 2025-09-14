@@ -10,7 +10,7 @@ serialPipeline:
   - targetId: canary-75
     profiles: [canary75]
   - targetId: canary-100
-    profiles: [canary10]
+    profiles: [canary100]
 ---
 apiVersion: deploy.cloud.google.com/v1
 kind: Target

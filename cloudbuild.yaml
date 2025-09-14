@@ -37,6 +37,7 @@ steps:
         '--region', 'us-east1',
         '--images=my-app-image=us-central1-docker.pkg.dev/$PROJECT_ID/ml-sales-prediction-nitish-cicd/cloud-run-app:$SHORT_SHA'
       ]
+    id: 'Created Releases Using Canary Deployment Strategy'
 
 options:
   defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
